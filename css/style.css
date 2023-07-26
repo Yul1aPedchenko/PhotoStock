@@ -16,9 +16,18 @@ body {
     font-size: 14px;
 }
 
+.container {
+    width: 906px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #03A9F4;
+}
+
 nav {
     word-spacing: 99px;
     text-align: center;
+    color: var(--navigation-color);
 }
 
 .nav-link:hover {
@@ -29,7 +38,6 @@ nav {
     border: 1px solid var(--title-color);
     background-color: var(--background-color);
     cursor: pointer;
-    margin: 0 auto;
     padding: 20px 48px;
 }
 
@@ -63,13 +71,7 @@ span {
     font-size: 14px;
 }
 
-
-
-a {
-    text-decoration: none;
-}
-
-.main-wrap {
+/* .main-wrap {
     margin-top: 92px;
     margin-bottom: 94px;
-}
+} */
