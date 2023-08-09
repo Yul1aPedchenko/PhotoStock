@@ -21,13 +21,17 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    border: 2px solid #03A9F4;
 }
 
 nav {
     word-spacing: 99px;
     text-align: center;
     color: var(--navigation-color);
+}
+
+.nav-link {
+    color: var(--navigation-color);
+    text-decoration: none;
 }
 
 .nav-link:hover {
@@ -41,6 +45,11 @@ nav {
     padding: 20px 48px;
 }
 
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
 .btn1:hover {
     color: var(--hover-color);
     border: 1px solid var(--hover-color);
@@ -48,6 +57,7 @@ nav {
 
 .card {
     width: 420px;
+    margin-bottom: 126px;
 }
 
 .wrap {
@@ -64,6 +74,7 @@ span {
 .title {
     margin-top: 32px;
     font-size: 30px;
+    margin-bottom: 40px;
 }
 
 .text {
@@ -71,11 +82,10 @@ span {
     font-size: 14px;
 }
 
-<<<<<<< HEAD
+
 .main-wrap {
-=======
-/* .main-wrap {
->>>>>>> d7783a8bca5234179628c989fb3470b87b2e8403
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 92px;
-    margin-bottom: 94px;
-} */
+}
