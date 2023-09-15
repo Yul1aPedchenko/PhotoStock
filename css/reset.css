@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     box-sizing: border-box;
 }
@@ -11,7 +10,8 @@ ul {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-=======
+}
+
 h1,
 h2,
 h3,
@@ -28,16 +28,12 @@ ol {
     list-style: none;
     margin: 0;
     padding: 0;
->>>>>>> d7783a8bca5234179628c989fb3470b87b2e8403
 }
 
 a {
     text-decoration: none;
-<<<<<<< HEAD
-=======
 }
 
 body {
     box-sizing: border-box;
->>>>>>> d7783a8bca5234179628c989fb3470b87b2e8403
 }
