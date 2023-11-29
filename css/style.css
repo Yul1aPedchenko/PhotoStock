@@ -29,9 +29,15 @@ nav {
     color: var(--navigation-color);
 }
 
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
 .nav-link {
     color: var(--navigation-color);
     text-decoration: none;
+    transition: color 300ms ease-in-out;
 }
 
 .nav-link:hover {
@@ -43,6 +49,7 @@ nav {
     background-color: var(--background-color);
     cursor: pointer;
     padding: 20px 48px;
+    transition: border 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .btn-wrap {
