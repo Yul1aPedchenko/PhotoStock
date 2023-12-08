@@ -8,8 +8,7 @@
 
 
 body {
-    width: 1200px;
-    padding: 71px 147px;
+    min-width: 480px;
     margin: 0px auto;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
