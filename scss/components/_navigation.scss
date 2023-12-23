@@ -1,0 +1,15 @@
+.nav {
+    word-spacing: 99px;
+    text-align: center;
+    color: $navigationColor;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    &__link {
+        color: $navigationColor;
+        text-decoration: none;
+        transition: color 300ms ease-in-out;
+    }
+}
