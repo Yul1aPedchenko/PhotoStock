@@ -1,0 +1,29 @@
+.main-card__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+
+.card {
+    width: 420px;
+    margin-bottom: 126px;
+    &__img {
+        margin-bottom: 62px;
+    }
+    &__name {
+        color: var($spanColor);
+        font-weight: 300;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    &__title {
+        margin-top: 32px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

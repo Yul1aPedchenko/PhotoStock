@@ -1,0 +1,15 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    &__btn {
+        border: 1px solid $titleColor;
+        background-color: $backgroundColor;
+        cursor: pointer;
+        padding: 20px 48px;
+        transition: border 250ms ease-in-out, color 250ms ease-in-out;
+    }
+    &__btn:hover {
+        color: $hoverColor;
+        border: 1px solid $hoverColor;
+    }
+}
